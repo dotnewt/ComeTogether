@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2CFE9222-C6AB-46D1-8317-7B5828DFE1A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{298610A6-444A-442B-95F8-F27875E7F1DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{686FCDFC-CB14-43CE-BAA6-E93BCF99750C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Systems", "Systems", "{F9609ABB-E457-4F02-B924-DCA3403B7858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A2A826B3-9FD4-4BA3-A68B-A45628F0DC96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{BBED6907-7FA0-4180-A20C-89922B546E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComeTogether.Api", "Systems\Api\ComeTogether.Api\ComeTogether.Api.csproj", "{4E198C1D-75A4-446A-B42D-3ABBBCED935D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComeTogether.Settings", "Shared\ComeTogether.Settings\ComeTogether.Settings.csproj", "{33644267-1FD0-4032-8B84-F2F093484F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E198C1D-75A4-446A-B42D-3ABBBCED935D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E198C1D-75A4-446A-B42D-3ABBBCED935D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E198C1D-75A4-446A-B42D-3ABBBCED935D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E198C1D-75A4-446A-B42D-3ABBBCED935D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33644267-1FD0-4032-8B84-F2F093484F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33644267-1FD0-4032-8B84-F2F093484F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33644267-1FD0-4032-8B84-F2F093484F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33644267-1FD0-4032-8B84-F2F093484F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2A826B3-9FD4-4BA3-A68B-A45628F0DC96} = {F9609ABB-E457-4F02-B924-DCA3403B7858}
+		{BBED6907-7FA0-4180-A20C-89922B546E3C} = {F9609ABB-E457-4F02-B924-DCA3403B7858}
+		{4E198C1D-75A4-446A-B42D-3ABBBCED935D} = {A2A826B3-9FD4-4BA3-A68B-A45628F0DC96}
+		{33644267-1FD0-4032-8B84-F2F093484F83} = {686FCDFC-CB14-43CE-BAA6-E93BCF99750C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CFE2EC1-A9CE-495F-8721-C3D3257BCDC0}
+	EndGlobalSection
+EndGlobal
